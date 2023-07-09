@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label>Last Insert</Label>
+    <TextArea fx:id="taInsert" editable="false"/>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <Label fx:id="errorText"/>
+    <Button text="Generate" onAction="#generateInsertStatement"/>
+
+    <fx:define>
+        <ToggleGroup fx:id="movesGroup"/>
+    </fx:define>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <RadioButton fx:id="rbLearnset" text="Learnset" toggleGroup="$movesGroup"/>
+        <RadioButton fx:id="rbTutor" text="Tutor" toggleGroup="$movesGroup"/>
+        <RadioButton fx:id="rbMt" text="TM,TR,HM..." toggleGroup="$movesGroup"/>
+        <RadioButton fx:id="rbEggmove" text="Eggmove" toggleGroup="$movesGroup"/>
+        <RadioButton fx:id="rbTransfer" text="Transfer" toggleGroup="$movesGroup"/>
+        <RadioButton fx:id="rbEvent" text="Event" toggleGroup="$movesGroup"/>
+    </HBox>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Generation</Label>
+        <ComboBox fx:id="cbGeneration"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Pokemon</Label>
+        <ComboBox fx:id="cbPokemon"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Move</Label>
+        <ComboBox fx:id="cbMove"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Game</Label>
+        <ComboBox fx:id="cbGame"/>
+    </HBox>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:id="levelContainer" visible="false">
+        <Label>Level</Label>
+        <TextField fx:id="tfLevel"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:id="methodContainer" visible="false">
+        <Label>Method</Label>
+        <TextField fx:id="tfMethod"/>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:id="tmContainer" visible="false">
+        <Label>TM Name</Label>
+        <TextField fx:id="tfTM"/>
+    </HBox>
+
+</VBox>

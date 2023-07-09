@@ -1,0 +1,15 @@
+### Test NG ###
+*emailable-report.html
+*testng-failed.xml
+### IntelliJ IDEA ###
+.idea
+/idea
+*.iws
+*.iml
+*.ipr
+*.class
+target/
+bin/
+test-output/
+drivers/
+*pokemon*.db

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label>Last Insert</Label>
+    <TextArea fx:id="taInsert" editable="false"/>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <Label fx:id="errorText"/>
+    <Button text="Generate" onAction="#generateInsertStatement"/>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Pokemon</Label>
+        <ComboBox fx:id="cbPokemon"/>
+        <Label>OR ID</Label>
+        <TextField fx:id="tfID"/>
+    </HBox>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Number of variants</Label>
+        <TextField fx:id="tfNumberVariants"/>
+    </HBox>
+
+    <Button text="Create variants" onAction="#create"/>
+    <Button text="Clear" onAction="#clear"/>
+
+    <HBox alignment="CENTER" spacing="15">
+        <TextField text="ID" editable="false"/>
+        <TextField text="BioEN" editable="false"/>
+        <TextField text="BioES" editable="false"/>
+        <TextField text="EtyEN" editable="false"/>
+        <TextField text="EtyES" editable="false"/>
+        <TextField text="Meter" editable="false"/>
+        <TextField text="Feet" editable="false"/>
+        <TextField text="KG" editable="false"/>
+        <TextField text="Pounds" editable="false"/>
+        <TextField text="Catch Rate" editable="false"/>
+        <TextField text="Base friend" editable="false"/>
+        <TextField text="BaseXP" editable="false"/>
+        <TextField text="Growth" editable="false"/>
+        <TextField text="steps" editable="false"/>
+        <TextField text="Male" editable="false"/>
+        <TextField text="Female" editable="false"/>
+        <TextField text="Species" editable="false"/>
+        <TextField text="Egg1" editable="false"/>
+        <TextField text="Egg2" editable="false"/>
+        <TextField text="Ability1" editable="false"/>
+        <TextField text="Ability2" editable="false"/>
+        <TextField text="HiddenAbility" editable="false"/>
+        <TextField text="EVS" editable="false"/>
+    </HBox>
+
+    <ScrollPane fitToWidth="true" fitToHeight="true">
+        <VBox fx:id="pokemonRowsContainer" alignment="CENTER" spacing="20.0"/>
+    </ScrollPane>
+
+</VBox>

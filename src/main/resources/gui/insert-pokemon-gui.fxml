@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label>Last Insert</Label>
+    <TextArea fx:id="taInsert" editable="false"/>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <Label fx:id="errorText"/>
+    <Button text="Generate" onAction="#generateInsertStatement"/>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Pokemon</Label>
+        <ComboBox fx:id="cbPokemon"/>
+        <Label>OR ID</Label>
+        <TextField fx:id="tfID"/>
+    </HBox>
+
+    <SplitPane dividerPositions="0.3"/>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+        <Label>Number of variants</Label>
+        <TextField fx:id="tfNumberVariants"/>
+    </HBox>
+
+    <Button text="Create variants" onAction="#create"/>
+    <Button text="Refresh Images" onAction="#refreshImages"/>
+    <Button text="Refresh Colors" onAction="#refreshColors"/>
+    <Button text="Clear" onAction="#clear"/>
+
+    <HBox alignment="CENTER" spacing="15">
+        <TextField text="MINI-IMG Prev" editable="false"/>
+        <TextField text="NORMAL IMG Prev" editable="false"/>
+        <TextField text="SHINY IMG Prev" editable="false"/>
+        <TextField text="ID" editable="false"/>
+        <TextField text="R-ID" editable="false"/>
+        <TextField text="HP,ATK,DEF,SPATK,SPDEF,SPE" editable="false"/>
+        <TextField text="Type 1" editable="false"/>
+        <TextField text="Type 2" editable="false"/>
+        <TextField text="Name-EN" editable="false"/>
+        <TextField text="Name-ES" editable="false"/>
+        <TextField text="Color" editable="false"/>
+        <TextField text="Color-D" editable="false"/>
+    </HBox>
+
+    <ScrollPane fitToWidth="true" fitToHeight="true">
+        <VBox fx:id="pokemonRowsContainer" alignment="CENTER" spacing="20.0"/>
+    </ScrollPane>
+
+</VBox>

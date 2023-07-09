@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <HBox alignment="CENTER" spacing="20.0">
+
+        <ComboBox fx:id="cbBulkPokemon"/>
+        <Label>Bulk add</Label>
+        <Button text="Add" onAction="#addAll"/>
+        <CheckBox fx:id="cbMega" text="mega"/>
+        <CheckBox fx:id="cbVariants" text="variants"/>
+        <CheckBox fx:id="cbGigantamax" text="gigantamax"/>
+        <CheckBox fx:id="cbAlternate" text="alternate"/>
+        <CheckBox fx:id="cbAlola" text="alola"/>
+        <CheckBox fx:id="cbGalar" text="galar"/>
+        <CheckBox fx:id="cbHisui" text="hisui"/>
+        <CheckBox fx:id="cbPaldea" text="paldea"/>
+
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+
+        <VBox alignment="CENTER" spacing="20.0">
+            <TextArea fx:id="taNumbersDex" editable="false" prefWidth="360" minHeight="600"/>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="20.0">
+
+            <Label>Last Insert</Label>
+            <TextArea fx:id="taInsert" editable="false"/>
+
+            <SplitPane dividerPositions="0.3"/>
+
+            <Label fx:id="errorText"/>
+            <Button text="Generate" onAction="#insert"/>
+
+            <SplitPane dividerPositions="0.3"/>
+
+            <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+                <Label>Generation</Label>
+                <ComboBox fx:id="cbGeneration"/>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+                <Label>Game</Label>
+                <ComboBox fx:id="cbGame"/>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+                <Label>Pokedex Game</Label>
+                <ComboBox fx:id="cbPokedexGame"/>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+                <Label>Pokemon</Label>
+                <ComboBox fx:id="cbPokemon"/>
+                <Button text="Add" onAction="#addPoke"/>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:id="methodContainer">
+                <Label>Number</Label>
+                <TextField fx:id="tfNumber"/>
+                <CheckBox fx:id="cbOwnNumber" text="Generate using own number"/>
+            </HBox>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="20.0">
+            <TextArea fx:id="stackPoke" editable="false" prefWidth="260" minHeight="600"/>
+            <Button text="Clear" onAction="#clearStack"/>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="20.0">
+            <TextArea fx:id="taAddFromText" prefWidth="260" minHeight="600"/>
+            <Button text="Add from text" onAction="#addFromText"/>
+        </VBox>
+
+
+    </HBox>
+
+
+</VBox>

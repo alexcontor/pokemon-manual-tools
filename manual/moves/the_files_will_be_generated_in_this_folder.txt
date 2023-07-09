@@ -1,0 +1,3 @@
+INSERT OR REPLACE INTO poke_egg_moves (_id,_move,_gen,_game_exclusive) 
+VALUES ("2¬normal¬0","71",1,"blue"); 
+

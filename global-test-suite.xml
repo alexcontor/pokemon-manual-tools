@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+    </listeners>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokemon.ExtractPokemonBasicData"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokedex.ExtractPokedexData"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.locations.ExtractDetailedPokeLocations"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokedex.GeneratePokeNumbersForNationalPokedex"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.abilities.ExtractAbilitiesSpanish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.abilities.ExtractAbilitiesEnglish"/>
+        </classes>
+    </test>
+
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <parameter name="executeBiology" value="true"/>
+        <parameter name="executeDescriptions" value="true"/>
+        <parameter name="executeLocations" value="true"/>
+        <parameter name="executeEtymologies" value="true"/>
+        <classes>
+            <class name="extractors.mixins.ExtractBiologyDescriptionsLocationsEtymologiesEnglish">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <parameter name="executeBiology" value="true"/>
+        <parameter name="executeDescriptions" value="true"/>
+        <parameter name="executeLocations" value="true"/>
+        <parameter name="executeEtymologies" value="true"/>
+        <classes>
+            <class name="extractors.mixins.ExtractBiologyDescriptionsLocationsEtymologiesSpanish">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <parameter name="executeBiology" value="true"/>
+        <parameter name="executeDescriptions" value="true"/>
+        <parameter name="executeLocations" value="true"/>
+        <parameter name="executeEtymologies" value="true"/>
+        <classes>
+            <class name="extractors.mixins.ExtractRegionalFormsBiologyDescriptionsLocationsEtymologiesSpanish">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.evolutions.EvolutionsExtractor"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.moves.ExtractMovesEnglish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.moves.ExtractMovesSpanish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokeabilities.ExtractPokeabilitiesEnglish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokeabilities.ExtractPokeabilitiesSpanish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokechanges.ExtractPokeChanges"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokedex.ExtractSpeciesSpanish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.pokemoves.ExtractPokeMoves"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.ExtractItemsImages"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.en.ExtractItemsDetailsEnglish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.en.ExtractItemCategoriesEnglish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.es.ExtractTmItemsSpanish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.en.ExtractTmItemsEnglish"/>
+        </classes>
+    </test>
+
+    <test verbose="10" name="Test 1" parallel="methods">
+        <classes>
+            <class name="extractors.items.es.ExtractItemDetailsSpanish"/>
+        </classes>
+    </test>
+
+</suite>

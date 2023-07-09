@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Any">Any</string>
+    <string name="None">None</string>
+    <string name="abilities">Abilities</string>
+    <string name="generic_tips">Tap on any element to see it\'s details</string>
+    <string name="ability">Ability</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="active_hunts">Active hunts</string>
+    <string name="add">Add</string>
+    <string name="add_attack">Touch to add attack</string>
+    <string name="add_build">Add build</string>
+    <string name="add_move">Add move</string>
+    <string name="add_pokemon">Add Pokemon</string>
+    <string name="add_random_team">Create random team</string>
+    <string name="add_team_question">"Do you want to add this team to your collection?"</string>
+    <string name="add_to_collection">Add to my colection</string>
+    <string name="added_to_collection">Added to collection!</string>
+    <string name="advanced_filter">Advanced search filter</string>
+    <string name="all_categories">All categories</string>
+    <string name="all_games">All games</string>
+    <string name="alternate_forms">Alternate Forms</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="any_type">Any type</string>
+    <string name="app_name">Prokedex</string>
+    <string name="app_settings">General settings</string>
+    <string name="apply">Apply</string>
+    <string name="ascendant">Ascendant (Lowest values first)</string>
+    <string name="atk_stat">Atk</string>
+    <string name="atk_type">Atk.Type</string>
+    <string name="attempts">Attempts</string>
+    <string name="attempts_format">%1$s Attempts</string>
+    <string name="author">Author</string>
+    <string name="available_autumn">Can be found in autumn</string>
+    <string name="available_day">Can be found during the day</string>
+    <string name="available_morning">Can be found in the morning</string>
+    <string name="available_night">Can be found at night</string>
+    <string name="available_spring">Can be found in spring</string>
+    <string name="available_summer">Can be found in summer</string>
+    <string name="available_winter">Can be found in winter</string>
+    <string name="avatar">Avatar</string>
+    <string name="average_stat">Average</string>
+    <string name="backup_error">Backup error</string>
+    <string name="backup_successful">Backup successful</string>
+    <string name="base">Base</string>
+    <string name="base_stats">Stats</string>
+    <string name="base_stats_display_mode">Base Stats display mode</string>
+    <string name="base_stats_display_mode_summary">Display Base Stats as chart</string>
+    <string name="base_stats_max_explanation">Lvl 100, 31 Ivs, 252 Evs, beneficial Nature</string>
+    <string name="base_stats_min_explanation">Lvl 100, 0 Ivs, 0 Evs, unfavourable Nature</string>
+    <string name="biology">Biology</string>
+    <string name="birthday">Birthday</string>
+    <string name="breakdown_details">Breakdown details</string>
+    <string name="breeding">Breeding</string>
+    <string name="build">Build</string>
+    <string name="build_presets">Build presets</string>
+    <string name="build_upload_error">There was a problem uploading the build because the server is under maintenance,
+        please try later.
+    </string>
+    <string name="build_uploaded_succesfully">Build uploaded to cloud successfully</string>
+    <string name="builds_fetch_error">There was a problem fetching cloud builds because the server is under maintenance,
+        please try later.
+    </string>
+    <string name="builds_sort_by_date">New builds</string>
+    <string name="builds_sort_by_rating">Best builds</string>
+    <string name="builds_tab_tips">Press the + button to add a new Build. Swipe to left/right in order to remove a
+        build.
+    </string>
+    <string name="cannot_upload_empty_teams">You cannot upload empty teams/builds to cloud</string>
+    <string name="cannot_upload_same_build">You have already uploaded this build to cloud</string>
+    <string name="cannot_upload_same_collection">You have already uploaded this build/team to cloud</string>
+    <string name="cannot_upload_same_team">You have already uploaded this team to cloud</string>
+    <string name="cannot_upload_tiny_team">You cannot upload a team with less than 3 Pokemon</string>
+    <string name="catch_rate">Catch Rate</string>
+    <string name="catched_tips">Long press into a Pokémon to see its Location in the selected Game</string>
+    <string name="category">Category</string>
+    <string name="caught">Caught</string>
+    <string name="caught_shortcut">Caught shortcut</string>
+    <string name="caught_shortcut_summary">Display caught shortcut on Pokedex entries</string>
+    <string name="clear_filters">Clear Pokémon</string>
+    <string name="click_to_select_teratype">Click to select teratype</string>
+    <string name="cloud_builds">Cloud builds</string>
+    <string name="cloud_teams">Cloud teams</string>
+    <string name="compatible_parents">Compatible parents</string>
+    <string name="confirm">Confirm</string>
+    <string name="contains_pokemon">Contain this Pokemon</string>
+    <string name="contest_type">Contest</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="contribution_description">You can contribute to the project by several ways! Currently we are looking
+        for translators to localize the app into several languages. You can join our Discord Server or send an email to
+        prokedex66@gmail.com for further details!. All the contributor will appear in the list below
+    </string>
+    <string name="contributor">Contributors</string>
+    <string name="covered_types">Covered types</string>
+    <string name="create_build">Create build</string>
+    <string name="create_trainer">Trainer creation</string>
+    <string name="credits">Credits and mentions</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dash">-</string>
+    <string name="day">Day</string>
+    <string name="decline">Decline</string>
+    <string name="def_stat">Def</string>
+    <string name="descendant">Descendant (Highest values first)</string>
+    <string name="describe_your_strategy">Write here your strategy</string>
+    <string name="description">Description</string>
+    <string name="details">Details</string>
+    <string name="disable_animations">Disable scroll animations</string>
+    <string name="discover_location">Locations</string>
+    <string name="display_all_pokemon">Display all</string>
+    <string name="display_height_in_meters">Display height in meters</string>
+    <string name="display_height_in_meters_summary">Display the Pokemon height in meters instead of feet. Requires app
+        restart to apply
+    </string>
+    <string name="display_shiny_sprites_summary">Display Shiny Sprites instead of normal</string>
+    <string name="display_uncaught">Display uncaught</string>
+    <string name="display_weight_in_kilograms">Display weight in kg</string>
+    <string name="display_weight_in_kilograms_summary">Display the Pokemon weight in kilograms instead of pounds (lbs).
+        Requires app restart to apply
+    </string>
+    <string name="duration">Hunting time</string>
+    <string name="edit_name">Edit name</string>
+    <string name="egg_cycles">Egg Cycles</string>
+    <string name="egg_group">Egg Group</string>
+    <string name="egg_groups">Egg Groups</string>
+    <string name="empty_atack_slot">Empty Slot</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="end_date">End date</string>
+    <string name="entry_being_updated">This Pokémon is being updated</string>
+    <string name="etymology">Etymology</string>
+    <string name="ev">EVs</string>
+    <string name="ev_yield">EV Yield</string>
+    <string name="event_moves">Event</string>
+    <string name="evolutions">Evolutions</string>
+    <string name="evolve">Evolve</string>
+    <string name="exp">Exp.</string>
+    <string name="expanded_dialog_behaviour">Expanded dialog behaviour</string>
+    <string name="expanded_dialog_behaviour_summary">If enabled, the bottom sheet dialog will be expanded by default so
+        there is no need to expand it manually
+    </string>
+    <string name="explore_teams">Strategy cloud</string>
+    <string name="favorite_game">Favorite Game</string>
+    <string name="favorite_game_summary">Used in search and displays of Pokémon Data</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorites_empty_placeholder_hint">In order to add a Pokémon to favorites, just perform a long press on
+        it!
+    </string>
+    <string name="favorites_tips">Long press into a Pokémon to add it to your Favorite List , press again to remove it
+        from your list.
+    </string>
+    <string name="feet">feet</string>
+    <string name="female">F</string>
+    <string name="filter">Filter</string>
+    <string name="follow_us_facebook">Give us a like on Facebook</string>
+    <string name="follow_us_instagram">Follow us on Instagram!</string>
+    <string name="follow_us_linkedin">Contact me on Linkedin!</string>
+    <string name="follow_us_twitter">Follow us on Twitter!</string>
+    <string name="follow_us_youtube">Suscribe to our Youtube Channel!</string>
+    <string name="formatted_type">%1$s Type</string>
+    <string name="found_pokemon">Pokemon Found:</string>
+    <string name="game_version">Game Version</string>
+    <string name="gender">Gender</string>
+    <string name="genderless">Genderless</string>
+    <string name="generation">Generation %1$s</string>
+    <string name="generations">Generations</string>
+    <string name="gigantamax">Gigantamax</string>
+    <string name="got_it">Got it!</string>
+    <string name="growth">Growth</string>
+    <string name="happiness">Happiness</string>
+    <string name="happy">Happy Rate</string>
+    <string name="hidden">Hidden</string>
+    <string name="hidden_damage_power">Base Damage</string>
+    <string name="hidden_damage_type">Hidden Power Type</string>
+    <string name="hide_images">Hide Images</string>
+    <string name="hours_format">%1$s Hours</string>
+    <string name="hp_stat">Hp</string>
+    <string name="hunt_started_format">Hunt started on %1$s</string>
+    <string name="immune_to">Immune to:</string>
+    <string name="increase_counter_hint">Press \"+\" to increase the counter</string>
+    <string name="insert_item_name">Insert item name</string>
+    <string name="insert_move_name">Insert Move name</string>
+    <string name="insert_name">Insert name</string>
+    <string name="insert_pokemon_name">Insert Pokemon name</string>
+    <string name="insert_trainer_name">Trainer name</string>
+    <string name="invalid_birthday">Please provide a valid birthday</string>
+    <string name="invalid_trainer_name">Please introduce a name</string>
+    <string name="invalid_trainer_sprite">Please select an avatar</string>
+    <string name="item">Item</string>
+    <string name="item_categories">Item categories</string>
+    <string name="items">Items</string>
+    <string name="iv">IVs</string>
+    <string name="join_our_discord">Join our Discord!</string>
+    <string name="kg">kilos</string>
+    <string name="lang">en</string>
+    <string name="learn_by_eggmoves_moves">Egg</string>
+    <string name="learn_by_level_moves">Level</string>
+    <string name="learn_by_tm_hm_moves">TM/HM/TR</string>
+    <string name="learn_by_tutor_moves">Tutor</string>
+    <string name="level">Level</string>
+    <string name="level_100">Level 100</string>
+    <string name="level_50">Level 50</string>
+    <string name="level_format">Lvl %1$s</string>
+    <string name="loading_ads">Loading ads</string>
+    <string name="loading_database">Loading database</string>
+    <string name="loading_please_wait">Loading, please wait</string>
+    <string name="gameDescription">Location</string>
+    <string name="location_in_gen">Locations in Pokémon %1$s</string>
+    <string name="location_of_in_game">Location of %1$s in Pokémon %2$s</string>
+    <string name="login">Login</string>
+    <string name="login_benefits">Sign in and enjoy this benefits:</string>
+    <string name="login_error">There was a problem with the login, please try again or continue as guest</string>
+    <string name="login_successful">Login successful</string>
+    <string name="logout">Logout</string>
+    <string name="main_activity_tips">Long press into a Pokémon in order to add it to your Favorite List , press again
+        to remove it from your list.
+    </string>
+    <string name="main_info">Main info</string>
+    <string name="male">M</string>
+    <string name="max_pokemon_level">100</string>
+    <string name="max_pokemon_level_message">Pokemon max level is 100</string>
+    <string name="max_pokemon_team_limit">Your Pokemon team is full!</string>
+    <string name="maximum">Max</string>
+    <string name="mega">Mega</string>
+    <string name="mega_evolutions">Mega Evolutions</string>
+    <string name="mentions_advice">Are you missing here? Please send a mail to prokedex66@gmail.com and we will solve
+        it!
+    </string>
+    <string name="meters">meters</string>
+    <string name="minimum">Min</string>
+    <string name="month">Month</string>
+    <string name="move_category">Move category</string>
+    <string name="moves">Moves</string>
+    <string name="moves_coverage">Moves coverage</string>
+    <string name="moves_tips">Tap on any move to see its details</string>
+    <string name="my_builds">My builds</string>
+    <string name="my_collection">My collection</string>
+    <string name="my_teams">My teams</string>
+    <string name="my_teams_empty_placeholder_hint">Tap the \"+\" button to create your first team</string>
+    <string name="name">Name</string>
+    <string name="name_details_format">%1$s (Details)</string>
+    <string name="nature">Nature</string>
+    <string name="natures">Natures</string>
+    <string name="natures_tips">Every Nature represents one of the 25 unique possible combinations of stat increase and
+        decrease; thus, there are five Natures that have no effect on the Pokémon stat growth as they technically
+        increase and decrease the same stat (Bashful, Docile, Hardy, Quirky, and Serious).
+    </string>
+    <string name="navigation_description">Description</string>
+    <string name="need_help">Need help?</string>
+    <string name="need_help_text">If you have any problem related to PRO activation or you have already purchased it,
+        please contact us at our support email: prokedex66@gmail.com and we will solve the problem!
+    </string>
+    <string name="neutral">Neutral</string>
+    <string name="nickname">Nick</string>
+    <string name="no_builds_available">There are no builds available for this game yet!</string>
+    <string name="no_builds_created">Create your first build for this game by pressing the \"+\"!</string>
+    <string name="no_builds_created_alt">You do not have any builds created for this game!</string>
+    <string name="no_description_available_for_game">This Pokémon has no Pokédex entry in Pokémon %1$s</string>
+    <string name="no_hunts_started">Start a new hunt by clicking the \"+\" button!</string>
+    <string name="no_moves_available_yet">This Pokémon doesn\'t have any moves for this category and game version or
+        they aren\'t registered in the database yet.
+    </string>
+    <string name="no_teams_available">There are no teams available for this game yet!</string>
+    <string name="non_covered_types">Non covered types</string>
+    <string name="normal">Normal</string>
+    <string name="normal_damage">Normal damage against:</string>
+    <string name="notes">Notes</string>
+    <string name="notes_description">Write here your notes</string>
+    <string name="or">Or</string>
+    <string name="other_forms">Other forms</string>
+    <string name="placeholder"></string>
+    <string name="please_connect_to_internet">You are currently offline, some features may not be available.</string>
+    <string name="please_login">Sign-in to access the Cloud Teambuilder</string>
+    <string name="please_select_game">Please select a game version</string>
+    <string name="pokedex">Pokédex</string>
+    <string name="pokedex_description">Pokémon %1$s description</string>
+    <string name="pokedex_settings">Pokedex settings</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="pokemon_added_to_favorites">%1$s added to favorites</string>
+    <string name="pokemon_comparator">Poke-Comparator</string>
+    <string name="pokemon_compatible">Compatible Pokémon</string>
+    <string name="pokemon_generation">Generation</string>
+    <string name="pokemon_location">Game Locations</string>
+    <string name="pokemon_not_available">The pokedex entry of %1$s is not available yet.</string>
+    <string name="pokemon_not_evolve">This pokemon doesn\'t evolve</string>
+    <string name="pokemon_preview">Preview</string>
+    <string name="pokemon_removed_from_favorites">%1$s removed from favorites</string>
+    <string name="pokemon_reset">%1$s reseted successfully</string>
+    <string name="pokemon_saved">%1$s saved successfully</string>
+    <string name="pokemon_species">%1$s Pokémon</string>
+    <string name="pokemon_team">Team</string>
+    <string name="pokemon_that_learn_this_move">Pokemon that learn %1$s</string>
+    <string name="pokemon_with_this_ability">Pokémon with this ability</string>
+    <string name="pounds">pounds</string>
+    <string name="power">Power</string>
+    <string name="pp">PP</string>
+    <string name="preview">Preview</string>
+    <string name="primary_type">Primary Type</string>
+    <string name="pro_upgrade_billing_completed">PRO Version purchased! Enjoy the ultimate experience of Prokedex!
+    </string>
+    <string name="problem_with_billing">There was a problem completing the purchase! Please check your information and
+        try again
+    </string>
+    <string name="product_already_purchased">PRO version has been activated for free!</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_message">Hello trainer! If you are enjoying this app I would really appreciate if you rate
+        it, It won\'t take more than a minute. It will really help the APP to grow and reach more people! Thanks for
+        your support!
+    </string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rating">Rating</string>
+    <string name="read_less">[Read less]</string>
+    <string name="read_more">[Read more]</string>
+    <string name="regions">Regions</string>
+    <string name="regions_tips">Tap on a region to see the routes</string>
+    <string name="remove">Remove</string>
+    <string name="remove_caught">Remove</string>
+    <string name="remove_moves">Remove moves</string>
+    <string name="remove_poke_before_changing_game">Remove all Pokemon before changing the game</string>
+    <string name="remove_pokemon">Remove Pokemon</string>
+    <string name="remove_pokemon_question">Do you want to remove %1$s?</string>
+    <string name="remove_team">Remove team</string>
+    <string name="remove_team_question">Do you want to remove this team?</string>
+    <string name="replace_shiny_sprites">Shiny Sprites</string>
+    <string name="require_app_restart">Requires app restart to apply</string>
+    <string name="reset">Reset</string>
+    <string name="reset_filters">Clear Filters</string>
+    <string name="resistant_to">Resistant to:</string>
+    <string name="routes">Routes</string>
+    <string name="routes_of">%1$s Routes (%2$s)</string>
+    <string name="routes_tips">Tap on a region to see the Pokémon</string>
+    <string name="save">Save</string>
+    <string name="save_pokemon_question">Do you want to save the changes before exit?</string>
+    <string name="search">Search</string>
+    <string name="secondary_type">Secondary Type</string>
+    <string name="select_build_to_remove">Select the Build to remove</string>
+    <string name="select_build_to_upload">Select the Build to upload/share</string>
+    <string name="select_category">Select category</string>
+    <string name="select_evolution">Select evolution</string>
+    <string name="select_game">Select the game</string>
+    <string name="select_generation">Select generation</string>
+    <string name="select_item">Touch here to add item</string>
+    <string name="select_nature">Select nature</string>
+    <string name="select_team_to_remove">Select the Team to remove</string>
+    <string name="select_team_to_upload">Select the Team to upload/share</string>
+    <string name="select_type">Select type</string>
+    <string name="set_team_name">Enter your team name</string>
+    <string name="settings">Settings</string>
+    <string name="shiny">Shiny</string>
+    <string name="shiny_caught">Shiny captured! Congratulations!</string>
+    <string name="shiny_details_tips">Select a Shiny to see and modify it\'s details. Long press to mark it as caught.
+    </string>
+    <string name="shiny_tab_tips">Press the + button to start a new hunt. Swipe to left/right in order to remove a
+        hunt.
+    </string>
+    <string name="show_all">Show all</string>
+    <string name="show_images_on">Displaying Pokémon images</string>
+    <string name="show_map">Show map</string>
+    <string name="show_weaknesses">Show weaknesses and strengths</string>
+    <string name="sort">Sort</string>
+    <string name="sort_atk_stat">by Attack</string>
+    <string name="sort_by_id">by ID</string>
+    <string name="sort_def_stat">by Defense</string>
+    <string name="sort_hp_stat">by HP</string>
+    <string name="sort_spatk_stat">by Special Attack</string>
+    <string name="sort_spdef_stat">by Special Defense</string>
+    <string name="sort_speed_stat">by Speed</string>
+    <string name="sort_type">Sort Type</string>
+    <string name="spatk_stat">S.Atk</string>
+    <string name="spdef_stat">S.Def</string>
+    <string name="special_stat">Spec</string>
+    <string name="speed_stat">Spe</string>
+    <string name="sprites">Sprites</string>
+    <string name="start_adventure">Confirm</string>
+    <string name="start_adventure_info">(This can be modified at any time)</string>
+    <string name="start_date">Start date</string>
+    <string name="start_new_hunt">New hunt</string>
+    <string name="stats">Stats</string>
+    <string name="strategy">Strategy</string>
+    <string name="weak_to">Weak against:</string>
+    <string name="support_the_project_as_you_want">Support the project as you want!</string>
+    <string name="support_the_project_as_you_want_clarification">(Any option you choose will activate PRO)</string>
+    <string name="synchronization_error">Error synchronizing Cloud backup, please try again later.</string>
+    <string name="synchronization_successful">Synchronized Cloud backup successfully.</string>
+    <string name="team">Team</string>
+    <string name="team_base_stats">Team Base Stats</string>
+    <string name="team_editor_tips">Press the + button to add a Pokémon.If you want to change the Game version, your
+        team must be empty. Swipe to left/right in order to remove a Pokémon. Long press into a Pokémon and drag in
+        order to reorder it.
+    </string>
+    <string name="team_explore_tab_tips">Press the filter button located at the top right corner in order to refine your
+        results.
+    </string>
+    <string name="team_name">Team Name</string>
+    <string name="team_upload_error">There was a problem uploading the team because the server is under maintenance,
+        please try later.
+    </string>
+    <string name="team_uploaded_succesfully">Team uploaded to cloud successfully</string>
+    <string name="teambuilder">Teambuilder</string>
+    <string name="teambuilder_tab_tips">Press the + button to add a Team. Swipe to left/right in order to remove a
+        team.
+    </string>
+    <string name="teambuilder_team_version_description">Press "+" to add a Pokémon. Select a Game Version to create a
+        team related to a specific game. By default you can access to all Pokemon. In order to change your selected game
+        version , your team must be empty
+    </string>
+    <string name="teams">My teams</string>
+    <string name="teams_fetch_error">There was a problem fetching cloud teams because the server is under maintenance,
+        please try later.
+    </string>
+    <string name="teams_sort_by_date">New teams</string>
+    <string name="teams_sort_by_rating">Best teams</string>
+    <string name="teratype">Teratype</string>
+    <string name="there_is_a_pendant_update">There is a new Prokedex update available! Download it from Play Store
+    </string>
+    <string name="tips">Tips</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_catched">Caught</string>
+    <string name="title_activity_moves">Moves</string>
+    <string name="title_activity_pokemon_abilities">Abilities</string>
+    <string name="title_activity_pokemon_comparator">Poke-Comparator</string>
+    <string name="title_activity_pokemon_details">PokemonDetailsActivity</string>
+    <string name="title_activity_pokemon_donations">Upgrade to PRO</string>
+    <string name="title_activity_pokemon_favorites">My Favorites</string>
+    <string name="title_activity_pokemon_moves">Moves</string>
+    <string name="title_activity_pokemon_teambuilder">Teambuilder</string>
+    <string name="title_activity_pokemon_teambuilder_editor">Team Editor</string>
+    <string name="title_activity_pokemon_weakness">Types</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_shiny">Shiny hunting</string>
+    <string name="tm_hm_name">TM/HM</string>
+    <string name="toggle_all_caught">Toggle all caught</string>
+    <string name="toggle_none_caught">Toggle none caught</string>
+    <string name="total">Total: %1$d</string>
+    <string name="total_stat">Total</string>
+    <string name="training">Training</string>
+    <string name="transfer_only_moves">Transfer Only</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="type">Type</string>
+    <string name="type_coverage">Type coverage</string>
+    <string name="types_relation">Types Relation</string>
+    <string name="untitled">Untitled</string>
+    <string name="upgrade_to_pro">Upgrade to PRO</string>
+    <string name="upgrade_to_pro_benefits">Become a PRO trainer and enjoy Prokedex without Ads! If you are enjoying the
+        app and would like to support the project and its future updates, consider upgrading to PRO and enjoy this
+        benefits!
+    </string>
+    <string name="upgrade_to_pro_title">Upgrade</string>
+    <string name="upload_build">Upload</string>
+    <string name="upload_build_question">"Do you want to upload this build to cloud?"</string>
+    <string name="upload_team">Upload</string>
+    <string name="upload_team_question">"Do you want to upload this team to cloud?"</string>
+    <string name="user_not_synchronized">The user is not synchronized with Cloud, please try again later.</string>
+    <string name="variant_forms">Variants</string>
+    <string name="want_to_contribute">Want to contribute?</string>
+    <string name="weakness">Weaknesses</string>
+    <string name="whats_new">What\'s new?</string>
+    <string name="why_upgrade_to_pro">Why upgrade to pro?</string>
+    <string name="year">Year</string>
+    <string name="zero">0</string>
+
+    <string name="social_media">Contact</string>
+    <string name="social_media_description">
+        If you want to contact us, send an email to our 24/7 support team: prokedex66@gmail.com
+    </string>
+    <string name="disclaimer">Disclaimer and Legal Advice</string>
+    <string name="disclaimer_description">
+        Prokedex is a free fan made app and is not endorsed/supported/affiliated by Nintendo or GAME FREAK or The
+        Pokémon company in any way., hence is UNOFFICIAL.
+        Some of the images used in this app are copyrighted and supported under fair use.
+        Pokémon and Pokémon character names are trademarks of Nintendo.
+        No copyright infringement intended.\n\n
+        Pokémon © 2002-2023 Pokémon.\n
+        © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc.
+    </string>
+
+    <string name="sources">Sources and Copyright</string>
+    <string name="sources_description">
+        Some of the texts and icons within this app proceed from the below sources and they are used under
+        the Creative Commons Attribution-NonCommercial-ShareAlike license (CC-BY-SA)
+        https://creativecommons.org/licenses/by-nc-sa/2.5/.
+    </string>
+
+    <string-array name="credits_array">
+        <item>https://icons8.com (Icons)</item>
+        <item>https://www.wikidex.net/wiki/WikiDex (Information)</item>
+        <item>https://bulbapedia.bulbagarden.net/wiki/Bulbapedia (Information)</item>
+        <item>https://pokemondb.net/ (Information)</item>
+        <item>https://www.serebii.net/ (Information)</item>
+        <item>https://wiki.pokemoncentral.it/ (Information)</item>
+        <item>pokebip.com (Information)</item>
+        <item>https://www.deviantart.com/tonofdirt726 (Official Shiny Sprites)</item>
+        <item>https://play.pokemonshowdown.com/ (Trainer Sprites)</item>
+        <item>Pidrins (APP Icon, Italian Translation)</item>
+        <item>MrMaik (German Translation)</item>
+        <item>HeartCore (German Translation)</item>
+        <item>The_Am0nnal13 (French Translation)</item>
+        <item>Justin Weiner (Jbyrdab) (APP Icon, Mini and Shiny Mini Sprites)</item>
+    </string-array>
+
+    <string-array name="login_benefits_array">
+        <item>Access to Strategy Cloud Teambuilder</item>
+        <item>Share, modify and add Teams to your collection</item>
+        <item>Synchronization and backup of your Favorites, Teams, Builds, Caught and Shinies along all your devices
+            (PRO Users)
+        </item>
+    </string-array>
+
+    <string-array name="pro_upgrade_benefits_array">
+        <item>No more Ads</item>
+        <item>Daily backup of your entire collection (caught, teams, builds, shinies, favorites) so you can restore it
+            at any time!
+        </item>
+        <item>Offline mode</item>
+    </string-array>
+
+    <string name="makes_contact">Makes contact</string>
+    <string name="affected_by_protect">Affected by protect</string>
+    <string name="affected_by_magic_coat">Affected by Magic Coat</string>
+    <string name="affected_by_snatch">Affected by Snatch</string>
+    <string name="affected_by_mirror_move">Affected by Mirror Move</string>
+    <string name="affected_by_kings_rock">Affected by Kings Rock</string>
+    <string name="enable_fast_scrollbars">Fast scrollbars</string>
+    <string name="sort_height">by Height</string>
+    <string name="sort_weight">by Weight</string>
+    <string name="sort_species">by Species</string>
+    <string name="language">Language</string>
+
+    <string name="multi_language_search">Multi Language Search</string>
+    <string name="multi_language_search_summary">(Requires app restart) Enables Multi Language Search for Pokemon. For
+        example searching for "Bisasam" (Bulbasaur in German) will return Bulbasaur even if the language is not set to
+        Deutsch
+    </string>
+    <string name="pokedex_visibility">Pokedex Visibility</string>
+    <string name="hide_variants">Hide Variants</string>
+    <string name="hide_variants_summary">(Requires restart) Hide Variants</string>
+    <string name="hide_gigantamax">Hide Gigantamax</string>
+    <string name="hide_gigantamax_summary">(Requires restart) Hide Gigantamax</string>
+    <string name="hide_mega">Hide Mega Evolutions</string>
+    <string name="hide_mega_summary">(Requires restart) Hide Mega Evolutions</string>
+    <string name="hide_alternate">Hide Alternate Forms</string>
+    <string name="hide_alternate_summary">(Requires restart) Hide Alternate Forms</string>
+    <string name="hide_regional">Hide Regional Forms</string>
+    <string name="hide_regional_summary">(Requires restart) Hide Regional Forms</string>
+    <string name="menu_open_at_start">Open menu automatically</string>
+    <string name="menu_open_at_start_summary">Menu is automatically opened at startup</string>
+
+    <string name="image_settings">Image Settings</string>
+    <string name="display_modern_item_sprites">Display modern item Sprites</string>
+    <string name="connected_locations">Connected Locations</string>
+    <string name="display_modern_pokemon_sprites">Display modern Pokemon Sprites</string>
+    <string name="super_effective_against">Super effective against:</string>
+    <string name="insuficient_storage_error">Your device do not have enough free storage to initialize the APP, please
+        free up some space and try again
+    </string>
+    <string name="updating_database">Updating Database, please wait.</string>
+    <string name="last_game_available_set_as_default_summary">The Pokedex will display the latest game available
+        information if there isn\'t a specific game selected or favorite game available.
+    </string>
+    <string name="last_game_available_set_as_default">Show last game information by default</string>
+
+
+</resources>
